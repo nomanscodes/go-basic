@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// Arethmetic Operators
 
@@ -46,18 +44,33 @@ func main() {
 
 	// Switch Case
 
-	day := "Noman2"
+	// day := "Noman2"
 
-	switch day {
+	// switch day {
 
-	case "Noman":
-		fmt.Println("This is Noman")
-	case "Ali":
-		fmt.Println("This is Ali")
-	case "Khan":
-		fmt.Println("This is Khan")
+	// case "Noman":
+	// 	fmt.Println("This is Noman")
+	// case "Ali":
+	// 	fmt.Println("This is Ali")
+	// case "Khan":
+	// 	fmt.Println("This is Khan")
 
-	default:
-		fmt.Println("Invalid Person")
-	}
+	// default:
+	// 	fmt.Println("Invalid Person")
+	// }
+
+	// EXERCISES - CONDITIONAL STATEMENTS
+
+	// Find the largest number among three numbers using if else
+
+	// a, b, c := 10, 20, 30
+
+	// if c > a && c > b {
+	// 	fmt.Println("C is the largest number is", c)
+	// } else if b > a && b > c {
+	// 	fmt.Println("B is the largest number is", b)
+	// } else {
+	// 	fmt.Println("A is the largest number is", a)
+	// }
+
 }
