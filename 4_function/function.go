@@ -59,11 +59,11 @@ func main() {
 
 // Panic function
 
-func panicFunc() {
-	fmt.Println("Start")
+// func panicFunc() {
+// 	fmt.Println("Start")
 
-	panic("Something went wrong")
+// 	panic("Something went wrong")
 
-	// This is not printing because the panic function is stop the execution of the code
-	fmt.Println("End")
-}
+// 	// This is not printing because the panic function is stop the execution of the code
+// 	fmt.Println("End")
+// }
