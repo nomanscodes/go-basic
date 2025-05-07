@@ -17,7 +17,11 @@ func main() {
 	// deferFunc()
 
 	// Panic Function
-	panicFunc()
+	// panicFunc()
+
+	// fmt.Println("result factorial:-", factorialCalculate(5))
+
+	fmt.Println("Variadic func sum:-", sumVariadicFunc(1, 2, 3, 4, 5, 6, 7, 7))
 
 }
 
@@ -67,3 +71,32 @@ func main() {
 // 	// This is not printing because the panic function is stop the execution of the code
 // 	fmt.Println("End")
 // }
+
+// Exercise
+
+// func factorialCalculate(n int) int {
+
+// 	if n < 0 {
+// 		fmt.Println("Negative number is not acceptable")
+
+// 		return -1
+// 	}
+
+// 	var result int = 1
+
+// 	for i := n; i > 0; i-- {
+// 		result = result * i
+// 	}
+
+// 	fmt.Println(result)
+
+// 	return result
+// }
+
+func sumVariadicFunc(numbers ...int) int {
+	sum := 0
+	for _, value := range numbers {
+		sum += value
+	}
+	return sum
+}
